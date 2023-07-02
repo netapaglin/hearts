@@ -1,0 +1,23 @@
+#ifndef __ADTDEFS_H__
+#define __ADTDEFS_H__
+#include <stdio.h>
+#include<stdlib.h>
+
+typedef enum ADTErr
+{
+	ERR_OK =0,
+	ERR_GENERAL,
+	ERR_NOT_INITIALIZED,
+	ERR_ALLOCATION_FAILED,
+	ERR_REALLOCATION_FAILED,
+	ERR_UNDERFLOW,
+	ERR_OVERFLOW,
+	ERR_WRONG_INDEX,
+	ERR_WRONG_INPUT, 
+	ERR_POINTER_NULL,
+	ERR_FALSE,
+	ERR_TRUE 
+} ADTErr;
+
+
+#endif /* __ADTDEFS_H__ */
